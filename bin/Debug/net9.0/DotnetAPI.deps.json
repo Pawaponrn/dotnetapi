@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v9.0": {
       "DotnetAPI/1.0.0": {
         "dependencies": {
+          "AutoMapper": "14.0.0",
+          "Dapper": "2.1.66",
           "Microsoft.AspNetCore.OpenApi": "9.0.4",
           "Microsoft.Data.SqlClient": "6.0.2",
-          "Swashbuckle.AspNetCore": "8.1.2",
-          "AutoMapper": "14.0.0",
-          "Dapper": "2.1.66"
+          "Swashbuckle.AspNetCore": "8.1.2"
         },
         "runtime": {
           "DotnetAPI.dll": {}
@@ -178,17 +178,17 @@
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "6.2.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "6.2.0.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "6.2.0.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -437,6 +437,12 @@
           }
         },
         "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          },
           "runtimes/win/lib/net9.0/System.Diagnostics.EventLog.dll": {
             "rid": "win",
             "assetType": "runtime",

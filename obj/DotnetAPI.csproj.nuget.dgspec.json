@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj": {}
+    "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj": {
+    "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj",
+        "projectUniqueName": "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj",
         "projectName": "DotnetAPI",
-        "projectPath": "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj",
-        "packagesPath": "C:\\Users\\PPU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\obj\\",
+        "projectPath": "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj",
+        "packagesPath": "/Users/pawaporn/.nuget/packages/",
+        "outputPath": "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PPU\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/pawaporn/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,12 +38,20 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[14.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.4, )"
@@ -84,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
