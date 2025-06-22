@@ -64,13 +64,9 @@
               "target": "Package",
               "version": "[8.1.2, )"
             },
-            "automapper": {
+            "System.Data.Common": {
               "target": "Package",
-              "version": "[14.0.0, )"
-            },
-            "dapper": {
-              "target": "Package",
-              "version": "[2.1.66, )"
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
