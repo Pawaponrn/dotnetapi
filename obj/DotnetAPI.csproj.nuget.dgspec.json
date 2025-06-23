@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj": {}
+    "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj": {}
   },
   "projects": {
-    "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj": {
+    "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj",
         "projectName": "DotnetAPI",
-        "projectPath": "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/DotnetAPI.csproj",
-        "packagesPath": "/Users/pawaporn/.nuget/packages/",
-        "outputPath": "/Users/pawaporn/Documents/learning-projects/skinet/DotnetAPI/obj/",
+        "projectPath": "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\DotnetAPI.csproj",
+        "packagesPath": "C:\\Users\\PPU\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PPU\\Documents\\exercises\\DotnetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/pawaporn/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PPU\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -59,6 +59,22 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -88,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
